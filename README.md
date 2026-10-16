@@ -5,20 +5,20 @@ An end-to-end Business Intelligence and Data Analytics project analyzing workpla
 
 ## 📌 Project Architecture & Workflow
 
-Raw HR Data (Excel)
-│
-Python (Pandas / SQLAlchemy)
-├── Data hygiene & dropping zero-variance columns
-├── Missing value & data type validation
-└── Migration into relational database
-│
-PostgreSQL (Database)
-├── Stored cleaned records in structured schemas
-└── Solved core business problems via SQL aggregations
-│
-Power BI Desktop
-├── Built relational data models & DAX measures
-└── Designed interactive, theme-aligned visual dashboards
+1. Raw HR Data (Excel)
+
+2. Python (Pandas / SQLAlchemy)
+* Data hygiene & dropping zero-variance columns
+* Missing value & data type validation
+* Migration into relational database
+
+3. PostgreSQL (Database)
+* Stored cleaned records in structured schemas
+* Solved core business problems via SQL aggregations
+
+4. Power BI Desktop
+* Built relational data models & DAX measures
+* Designed interactive, theme-aligned visual dashboards
 
 
 ## 🛠️ Tech Stack & Tools
